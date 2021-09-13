@@ -1,0 +1,87 @@
+/* Feuille de style des Compendiums FR de Toc pour le système CoC7 pour Foundry VTT */
+
+/* custom du chat */
+#chat-log .message {
+    border: 2px solid #7a0a30;
+    border-radius: 10px;
+    margin: 10px;
+}
+.dice-roll .dice-formula, .dice-roll .dice-total {
+    line-height: 20px;
+}
+#chat-log .message {
+    margin: 1px;
+}
+
+/* réduction des icônes de menu de gauche */
+#controls .scene-control, #controls .control-tool {
+    width: 34px;
+    height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 4px;
+}
+
+/* augmentation de la taille de la feuille de perso */
+.sheetV2.character {
+    min-width: 688px;
+    min-height: 640px;
+}
+.sheetV2.character {
+    min-width: 890px;
+    min-height: 770px;
+}
+
+/* custom de la feuille de perso */
+.sheetV2 .window-content {
+    margin: 0px 0.2rem 0.2rem;
+}
+
+/* custom du logo en haut à gauche */
+#logo {
+    left: 35px;
+}
+
+/* class de lien custom pour ouverture de compendium */
+.toc-entity-link {
+    background: #DDD;
+    padding: 1px 4px;
+    border: 1px solid #4b4a44;
+    border-radius: 2px;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+
+/* passage de la colorisation au vert #168a1d */
+button:hover, button:focus {
+    box-shadow: 0 0 5px #168a1d;
+}
+#controls .scene-control.active, #controls .control-tool.active, #controls .scene-control:hover, #controls .control-tool:hover {
+    border: 1px solid #168a1d;
+    border-bottom: 1px solid #168a1d;
+    box-shadow: -1px 0 10px #168a1d;
+}
+#navigation #scene-list .scene.view, #navigation #scene-list .scene.context {
+    border: 1px solid #168a1d;
+    border-bottom-color: #168a1d;
+    border-bottom: 1px solid #168a1d;
+    box-shadow: 0 0 10px #168a1d;
+}
+#sidebar-tabs > .item.active {
+    border: 1px solid #168a1d;
+    box-shadow: 0 0 6px inset #168a1d;
+}
+#sidebar-tabs {
+    border-bottom: 1px solid #168a1d;
+    box-shadow: 0 0 10px #168a1d;
+}
+.tabs .item.active {
+    text-shadow: 0 0 10px #168a1d;
+}
+a:hover {
+    text-shadow: 0 0 8px #168a1d;
+}
+#chat-log .message {
+    border: 2px solid #000000;
+}
