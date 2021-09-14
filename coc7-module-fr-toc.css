@@ -1,5 +1,13 @@
 /* Feuille de style des Compendiums FR de Toc pour le système CoC7 pour Foundry VTT */
 
+/* custom du fond */
+body {
+    background-image: url('images/fond-coc-toc-goomi.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
 /* custom du chat */
 #chat-log .message {
     border: 2px solid #7a0a30;
