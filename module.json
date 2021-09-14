@@ -7,7 +7,7 @@
     "compatibleCoreVersion": "0.8.9",
     "author": "Plein de poulpes",
     "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
-    "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
+    "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/releases/latest/download/module.json",
     "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
     "system": ["CoC7"],
     "dependencies": [
