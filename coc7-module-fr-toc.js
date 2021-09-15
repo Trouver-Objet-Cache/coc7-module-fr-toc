@@ -71,4 +71,4 @@ Hooks.on('renderJournalSheet', (app, html, options) => {
 
 // mise à jour du logo en haut à gauche
 var x = document.getElementById("logo");
-x.setAttribute("src", "https://www.tentacules.net/toc/toc_/toc/joel_avant_paques.gif");
+x.setAttribute("src", "modules/coc7-module-fr-toc/images/logo.png");
