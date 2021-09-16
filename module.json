@@ -2,7 +2,7 @@
     "name": "coc7-module-fr-toc",
     "title": "Compendiums pour CoC7 en français Toc",
     "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "minimumCoreVersion": "0.5.0",
     "compatibleCoreVersion": "0.8.9",
     "author": "Plein de poulpes",
