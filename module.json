@@ -1,89 +1,89 @@
 {
-    "name": "coc7-module-fr-toc",
-    "title": "Compendiums pour CoC7 en français Toc",
-    "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
-    "version": "1.0.1",
-    "minimumCoreVersion": "0.5.0",
-    "compatibleCoreVersion": "0.8.9",
-    "author": "Plein de poulpes",
-    "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
-    "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
-    "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
-    "system": ["CoC7"],
-    "dependencies": [
-      {
-        "name": "compendium-folders"
-      }
-    ],
-    "scripts": [
-        "./coc7-module-fr-toc.js"
-    ],
-    "styles": [
-        "./coc7-module-fr-toc.css"
-    ],
-    "packs": [
+  "name": "coc7-module-fr-toc",
+  "title": "Compendiums pour CoC7 en français Toc",
+  "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
+  "version": "1.0.2",
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion": "0.8.9",
+  "author": "Plein de poulpes",
+  "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
+  "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
+  "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
+  "system": ["CoC7"],
+  "dependencies": [
     {
-        "label": "FR-compendiums-actors",
-        "entity": "Actor",
-        "name": "fr-compendiums-actor",
-        "path": "packs/fr-compendiums-actor.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "Actor"
-    },
-    {
-        "label": "FR-compendiums-items",
-        "entity": "Item",
-        "name": "fr-compendiums-item",
-        "path": "packs/fr-compendiums-item.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "Item"
-    },
-    {
-        "label": "FR-compendiums-items-crea",
-        "entity": "Item",
-        "name": "fr-compendiums-item-crea",
-        "path": "packs/fr-compendiums-item-crea.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "Item"
-    },
-    {
-        "label": "FR-compendiums-journalentries",
-        "entity": "JournalEntry",
-        "name": "fr-compendiums-journalentry",
-        "path": "packs/fr-compendiums-journalentry.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "JournalEntry"
-    },
-    {
-        "label": "FR-compendiums-rolltables",
-        "entity": "RollTable",
-        "name": "fr-compendiums-rolltable",
-        "path": "packs/fr-compendiums-rolltable.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "RollTable"
-    },
-    {
-        "label": "FR-compendiums-scenes",
-        "entity": "Scene",
-        "name": "fr-compendiums-scene",
-        "path": "packs/fr-compendiums-scene.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "Scene"
-    },
-    {
-        "label": "FR-compendiums-sono",
-        "entity": "Playlist",
-        "name": "fr-compendiums-sono",
-        "path": "packs/fr-compendiums-sono.db",
-        "system": "CoC7",
-        "package": "world",
-        "folder": "Playlist"
+    "name": "compendium-folders"
     }
-    ]
-  }
+  ],
+  "scripts": [
+    "./coc7-module-fr-toc.js"
+  ],
+  "styles": [
+    "./coc7-module-fr-toc.css"
+  ],
+  "packs": [
+    {
+      "label": "FR-compendiums-actors",
+      "entity": "Actor",
+      "name": "fr-compendiums-actor",
+      "path": "packs/fr-compendiums-actor.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Actor"
+    },
+    {
+      "label": "FR-compendiums-items",
+      "entity": "Item",
+      "name": "fr-compendiums-item",
+      "path": "packs/fr-compendiums-item.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Item"
+    },
+    {
+      "label": "FR-compendiums-items-crea",
+      "entity": "Item",
+      "name": "fr-compendiums-item-crea",
+      "path": "packs/fr-compendiums-item-crea.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Item"
+    },
+    {
+      "label": "FR-compendiums-journalentries",
+      "entity": "JournalEntry",
+      "name": "fr-compendiums-journalentry",
+      "path": "packs/fr-compendiums-journalentry.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "JournalEntry"
+    },
+    {
+      "label": "FR-compendiums-rolltables",
+      "entity": "RollTable",
+      "name": "fr-compendiums-rolltable",
+      "path": "packs/fr-compendiums-rolltable.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "RollTable"
+    },
+    {
+      "label": "FR-compendiums-scenes",
+      "entity": "Scene",
+      "name": "fr-compendiums-scene",
+      "path": "packs/fr-compendiums-scene.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Scene"
+    },
+    {
+      "label": "FR-compendiums-sono",
+      "entity": "Playlist",
+      "name": "fr-compendiums-sono",
+      "path": "packs/fr-compendiums-sono.db",
+      "system": "CoC7",
+      "package": "world",
+      "folder": "Playlist"
+    }
+  ]
+}
