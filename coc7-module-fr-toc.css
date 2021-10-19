@@ -8,6 +8,7 @@ body {
     background-color: #000000;
 }
 
+
 /* custom du chat */
 #chat-log .message {
     border: 2px solid #7a0a30;
@@ -20,6 +21,13 @@ body {
 #chat-log .message {
     margin: 1px;
 }
+
+
+/* custo des journaux */
+.sheet .editor-content {
+    font-size: 16px;
+}
+
 
 /* réduction des icônes de menu de gauche */
 #controls .scene-control, #controls .control-tool {
@@ -40,15 +48,18 @@ body {
     min-height: 770px;
 }
 
+
 /* custom de la feuille de perso */
 .sheetV2 .window-content {
     margin: 0px 0.2rem 0.2rem;
 }
 
+
 /* custom du logo en haut à gauche */
 #logo {
     left: 35px;
 }
+
 
 /* class de lien custom pour ouverture de compendium */
 .toc-entity-link {
@@ -60,6 +71,11 @@ body {
     word-break: break-all;
 }
 
+
+/* on vire la bas de l'écran Foundry... */
+.watermark {
+    display: none;
+}
 
 /* passage de la colorisation au vert #168a1d */
 button:hover, button:focus {
