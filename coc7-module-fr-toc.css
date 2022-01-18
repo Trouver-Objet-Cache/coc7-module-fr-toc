@@ -8,7 +8,6 @@ body {
     background-color: #000000;
 }
 
-
 /* custom du chat */
 #chat-log .message {
     border: 2px solid #7a0a30;
@@ -22,15 +21,8 @@ body {
     margin: 1px;
 }
 
-
-/* custo des journaux */
-.sheet .editor-content {
-    font-size: 16px;
-}
-
-
 /* réduction des icônes de menu de gauche */
-#controls .scene-control, #controls .control-tool {
+#controls ol .scene-control, #controls ol .control-tool {
     width: 34px;
     height: 34px;
     font-size: 24px;
@@ -47,19 +39,45 @@ body {
     min-width: 890px;
     min-height: 770px;
 }
-
+.sheetV2 .window-content {
+    font-size: 17px;
+}
+.sheetV2.character form .container .sheet-body .itemV2 {
+    font-size: 18px;
+}
+.sheetV2.character .floating-left {
+    left: 130px;
+}
+.sheetV2.character form .container .sheet-body .itemV2 .item-name {
+    line-height: 1.2rem;
+}
+.sheetV2.character form .container .sheet-header .infos {
+    width: 20rem;
+}
+.sheetV2.character form .container .sheet-body .itemV2 .item-image {
+    height: 1.1rem;
+}
+.sheetV2.character form .container .sheet-header .characteristics .footer .attribute-label h2 {
+    font-size: 1rem;
+}
+.sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score .fith-score, .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score .half-score {
+    font-size: .7rem;
+}
+.sheetV2.character form .container .sheet-body .san-group .monitor {
+    height: 1.5rem;
+}
 
 /* custom de la feuille de perso */
 .sheetV2 .window-content {
     margin: 0px 0.2rem 0.2rem;
 }
 
-
 /* custom du logo en haut à gauche */
 #logo {
     left: 35px;
+    height: 70px;
+    width: 70px;
 }
-
 
 /* class de lien custom pour ouverture de compendium */
 .toc-entity-link {
@@ -72,16 +90,11 @@ body {
 }
 
 
-/* on vire la bas de l'écran Foundry... */
-.watermark {
-    display: none;
-}
-
 /* passage de la colorisation au vert #168a1d */
 button:hover, button:focus {
     box-shadow: 0 0 5px #168a1d;
 }
-#controls .scene-control.active, #controls .control-tool.active, #controls .scene-control:hover, #controls .control-tool:hover {
+#controls ol .scene-control.active, #controls ol .control-tool.active, #controls ol .scene-control:hover, #controls ol .control-tool:hover {
     border: 1px solid #168a1d;
     border-bottom: 1px solid #168a1d;
     box-shadow: -1px 0 10px #168a1d;

@@ -24,7 +24,7 @@ Hooks.on('ready', async function () {
     const settings = {
       artworkMainFont: 'url(\'./modules/coc7-module-fr-toc/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
       artworkMainFontBold: 'url(\'./modules/coc7-module-fr-toc/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
-      artworkMainFontSize: 20,
+      artworkMainFontSize: 16,
       artworkBackgroundColor: 'rgba(43,55,83,1)',
       artworkFrontColor: 'rgba(43,55,83,1)',
       artworkFixedSkillLength: false,
@@ -35,6 +35,7 @@ Hooks.on('ready', async function () {
       displayPlayerNameOnSheet: true,
       oneBlockBackstory: true
     }
+    alert(JSON.stringify(game.settings.settings))
     game.settings.settings.forEach(async setting => {
       if (setting.module === 'CoC7' && typeof settings[setting.key] !== 'undefined' && game.settings.get('CoC7', setting.key) !== settings[setting.key]) {
         await game.settings.set('CoC7', setting.key, settings[setting.key])
