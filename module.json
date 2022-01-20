@@ -2,25 +2,21 @@
   "name": "coc7-module-fr-toc",
   "title": "Compendiums pour CoC7 en français Toc",
   "description": "<p>Une collection de compendiums pour l'Appel de Cthulhu en français.</p>",
+  "author": "Plein de poulpes",
+  "authors": [],
+  "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
+  "flags": {},
   "version": "1.0.3",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
-  "author": "Plein de poulpes",
-  "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
-  "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
-  "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
-  "system": ["CoC7"],
-  "dependencies": [
-    {
-    "name": "compendium-folders"
-    }
-  ],
   "scripts": [
     "./coc7-module-fr-toc.js"
   ],
+  "esmodules": [],
   "styles": [
     "./coc7-module-fr-toc.css"
   ],
+  "languages": [],
   "packs": [
     {
       "label": "FR-compendiums-actors",
@@ -29,7 +25,9 @@
       "path": "packs/fr-compendiums-actor.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "Actor"
+      "folder": "Actor",
+      "type": "Actor",
+      "private": false
     },
     {
       "label": "FR-compendiums-items",
@@ -38,7 +36,9 @@
       "path": "packs/fr-compendiums-item.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "Item"
+      "folder": "Item",
+      "type": "Item",
+      "private": false
     },
     {
       "label": "FR-compendiums-items-crea",
@@ -47,7 +47,9 @@
       "path": "packs/fr-compendiums-item-crea.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "Item"
+      "folder": "Item",
+      "type": "Item",
+      "private": false
     },
     {
       "label": "FR-compendiums-journalentries",
@@ -56,7 +58,9 @@
       "path": "packs/fr-compendiums-journalentry.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "JournalEntry"
+      "folder": "JournalEntry",
+      "type": "JournalEntry",
+      "private": false
     },
     {
       "label": "FR-compendiums-rolltables",
@@ -65,7 +69,9 @@
       "path": "packs/fr-compendiums-rolltable.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "RollTable"
+      "folder": "RollTable",
+      "type": "RollTable",
+      "private": false
     },
     {
       "label": "FR-compendiums-scenes",
@@ -74,7 +80,9 @@
       "path": "packs/fr-compendiums-scene.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "Scene"
+      "folder": "Scene",
+      "type": "Scene",
+      "private": false
     },
     {
       "label": "FR-compendiums-sono",
@@ -83,7 +91,24 @@
       "path": "packs/fr-compendiums-sono.db",
       "system": "CoC7",
       "package": "world",
-      "folder": "Playlist"
+      "folder": "Playlist",
+      "type": "Playlist",
+      "private": false
     }
-  ]
+  ],
+  "system": [
+    "CoC7"
+  ],
+  "dependencies": [
+    {
+      "name": "compendium-folders",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/Trouver-Objet-Cache/coc7-module-fr-toc/main/module.json",
+  "download": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
 }
