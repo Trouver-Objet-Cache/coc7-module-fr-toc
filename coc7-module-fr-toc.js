@@ -24,7 +24,7 @@ Hooks.on('ready', async function () {
     const settings = {
       artworkMainFont: 'url(\'./modules/coc7-module-fr-toc/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
       artworkMainFontBold: 'url(\'./modules/coc7-module-fr-toc/fonts/mailart-rubberstamp.ttf\') format(\'truetype\')',
-      artworkMainFontSize: '',
+      artworkMainFontSize: 16,
       artworkBackgroundColor: 'rgba(43,55,83,1)',
       artworkFrontColor: 'rgba(43,55,83,1)',
       artworkFixedSkillLength: false,
@@ -41,6 +41,8 @@ Hooks.on('ready', async function () {
               await game.settings.set('CoC7', setting.key, settings[setting.key])
       }
     })
+    // modif du jet dans dicesonice pour Hey listen fonctionne
+    game.settings.set('dice-so-nice', 'immediatelyDisplayChatMessages', true);
 
     // message d'accueil à l'activation du module
     if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
