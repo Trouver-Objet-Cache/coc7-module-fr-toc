@@ -60,7 +60,7 @@ Hooks.on('ready', async function () {
 
 Hooks.on('renderPause', async function () {
   // mise à jour du logo de pause
-  document.getElementById("pause").children[0].setAttribute("src", "modules/coc7-module-fr-toc/images/logo.png")
+  document.getElementById("pause").children[0].setAttribute("src", "modules/coc7-module-fr-toc/images/logo.webp")
   document.getElementById("pause").children[1].innerHTML = "Cthulhu dort & attend..."
 })
 
@@ -77,4 +77,4 @@ Hooks.on('renderJournalSheet', (app, html, options) => {
 })
 
 // mise à jour du logo en haut à gauche
-document.getElementById("logo").setAttribute("src", "modules/coc7-module-fr-toc/images/logo.png")
+document.getElementById("logo").setAttribute("src", "modules/coc7-module-fr-toc/images/logo.webp")
