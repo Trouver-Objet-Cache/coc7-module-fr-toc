@@ -2,92 +2,99 @@
 
 /* custom du fond */
 body {
-  background-image: url('images/fond-coc-toc-goomi.webp');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #000000;
+    background-image: url('images/fond-coc-toc-goomi.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
 }
 
 /* custom du chat */
 #chat-log .message {
-  border: 2px solid #7a0a30;
-  border-radius: 10px;
-  margin: 10px;
+    border: 2px solid #7a0a30;
+    border-radius: 10px;
+    margin: 10px;
 }
-.dice-roll .dice-formula, .dice-roll .dice-total {
-  line-height: 20px;
+.dice-roll .dice-formula,
+.dice-roll .dice-total {
+    line-height: 20px;
 }
 #chat-log .message {
-  margin: 1px;
+    margin: 1px;
 }
 
 /* réduction des icônes de menu de gauche */
-#controls ol .scene-control, #controls ol .control-tool {
-  width: 34px;
-  height: 34px;
-  font-size: 24px;
-  line-height: 34px;
-  margin: 0 0 4px;
+#controls ol .scene-control,
+#controls ol .control-tool {
+    width: 34px;
+    height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0 0 4px;
 }
 
 /* custo des journaux */
 .sheet .editor-content {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 /* custom du logo en haut à gauche */
 #logo {
-  left: 35px;
-  height: 70px;
-  width: 70px;
+    left: 35px;
+    height: 70px;
+    width: 70px;
 }
 
 /* class de lien custom pour ouverture de compendium */
 .toc-entity-link {
-  background: #DDD;
-  padding: 1px 4px;
-  border: 1px solid #4b4a44;
-  border-radius: 2px;
-  white-space: nowrap;
-  word-break: break-all;
+    background: #DDD;
+    padding: 1px 4px;
+    border: 1px solid #4b4a44;
+    border-radius: 2px;
+    white-space: nowrap;
+    word-break: break-all;
 }
 
 /* fond de la pause */
 #pause {
-  background: none;
+    background: none;
 }
 
 /* passage de la colorisation au vert #168a1d */
-button:hover, button:focus {
-  box-shadow: 0 0 5px #168a1d;
+button:hover,
+button:focus {
+    box-shadow: 0 0 5px #168a1d;
 }
-#controls ol .scene-control.active, #controls ol .control-tool.active, #controls ol .scene-control:hover, #controls ol .control-tool:hover {
-  border: 1px solid #168a1d;
-  border-bottom: 1px solid #168a1d;
-  box-shadow: -1px 0 10px #168a1d;
+#controls ol .scene-control.active,
+#controls ol .control-tool.active,
+#controls ol .scene-control:hover,
+#controls ol .control-tool:hover {
+    border: 1px solid #168a1d;
+    border-bottom: 1px solid #168a1d;
+    box-shadow: -1px 0 10px #168a1d;
 }
-#navigation #scene-list .scene.view, #navigation #scene-list .scene.context {
-  border: 1px solid #168a1d;
-  border-bottom-color: #168a1d;
-  border-bottom: 1px solid #168a1d;
-  box-shadow: 0 0 10px #168a1d;
+#navigation #scene-list .scene.view,
+#navigation #scene-list .scene.context {
+    border: 1px solid #168a1d;
+    border-bottom-color: #168a1d;
+    border-bottom: 1px solid #168a1d;
+    box-shadow: 0 0 10px #168a1d;
 }
 #sidebar-tabs > .item.active {
-  border: 1px solid #168a1d;
-  box-shadow: 0 0 6px inset #168a1d;
+    border: 1px solid #168a1d;
+    box-shadow: 0 0 6px inset #168a1d;
 }
 #sidebar-tabs {
-  border-bottom: 1px solid #168a1d;
-  box-shadow: 0 0 10px #168a1d;
+    border-bottom: 1px solid #168a1d;
+    box-shadow: 0 0 10px #168a1d;
 }
 .tabs .item.active {
-  text-shadow: 0 0 10px #168a1d;
+    text-shadow: 0 0 10px #168a1d;
 }
 a:hover {
-  text-shadow: 0 0 8px #168a1d;
+    text-shadow: 0 0 8px #168a1d;
 }
 #chat-log .message {
-  border: 2px solid #000000;
+    border: 2px solid #000000;
 }
 
 
@@ -95,40 +102,40 @@ a:hover {
 
 /* boite de tri des compétences */
 .sheetV2.character .floating-left {
-  left: 30px;
-  bottom: 20px;
+    left: 30px;
+    bottom: 20px;
 }
 /* largeur des champs valeurs des compétences en création */
 .sheetV2 .development .skills-list .item {
-  grid-template-columns: 1rem auto 1.6rem 1.6rem 1.6rem 1.6rem 1.6rem;
+    grid-template-columns: 1rem auto 1.6rem 1.6rem 1.6rem 1.6rem 1.6rem;
 }
 /* la taille de la police */
 .sheetV2 .window-content,
 .sheetV2.character form .container .sheet-body .itemV2,
 .sheetV2 .development .skills-list .item > .skill-name {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 /* hauteur des lignes des compétences */
 .sheetV2 .development .skills-list .item {
-  grid-template-rows: 1.1rem;
+    grid-template-rows: 1.1rem;
 }
 .sheetV2.character form .container .sheet-body .itemV2 {
-  grid-template-rows: 1.2rem;
+    grid-template-rows: 1.2rem;
 }
 /* augmentation de la taille de la feuille de perso */
 .sheetV2.character {
-  /* min-width: 688px;
+    /* min-width: 688px;
   min-height: 640px;*/
-  min-width: 900px;
-  min-height: 770px;
+    min-width: 900px;
+    min-height: 770px;
 }
 /* largeur des colonnes des compétences de combat */
 .sheetV2.character form .container .sheet-body .itemV2 {
-  min-width: 30%;
+    min-width: 30%;
 }
 /* taille de police de l'historique */
 .coc7.sheetV2 .editor-content {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 /* dé tassement des infos des SAN à gauche */
 .sheetV2.character form .container .sheet-body .san-group .monitor {
@@ -137,33 +144,32 @@ a:hover {
 /* taille des attributs: mvt,...*/
 .sheetV2.character form .container .sheet-header .characteristics .footer .attribute-label h2,
 .sheetV2.character form .container .sheet-header .characteristics .footer .attribute-value {
-  font-size: 1rem;
+    font-size: 1rem;
 }
-
 
 
 /* taille des scores de carac /2 /4 */
 .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score .fith-score,
-  .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score .half-score {
-  font-size: .8rem;
+.sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score .half-score {
+    font-size: 0.8rem;
 }
 /* taille des cases des caracs */
 .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score {
-  grid-template-columns: 2.6rem 1rem;
+    grid-template-columns: 2.6rem 1rem;
 }
 /* taille des intitulés des caracs */
 .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-name {
-  line-height: 1rem;
-  font-size: 1.2rem;
+    line-height: 1rem;
+    font-size: 1.2rem;
 }
 /* taille du fond blanc des caracs */
 .sheetV2.character form .container .sheet-header .characteristics .char-box .charac-score {
-  margin-right: 0.1rem;
+    margin-right: 0.1rem;
 }
 /* hauteur des les lignes des caracs */
 .sheetV2.character form .container .sheet-header .characteristics .char-box {
-  grid-template-rows: 1.4rem 2rem;
+    grid-template-rows: 1.4rem 2rem;
 }
 .sheetV2.character form .container .sheet-header .characteristics .char-boxes {
-  grid-template-rows: 3.8rem;
+    grid-template-rows: 3.8rem;
 }
