@@ -23,12 +23,11 @@ body {
 }
 
 /* réduction des icônes de menu de gauche */
-#controls ol .scene-control,
-#controls ol .control-tool {
-    width: 34px;
-    height: 34px;
-    font-size: 24px;
-    line-height: 34px;
+#controls ol.control-tools > li {
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
     margin: 0 0 4px;
 }
 
@@ -64,16 +63,8 @@ button:hover,
 button:focus {
     box-shadow: 0 0 5px #168a1d;
 }
-#controls ol .scene-control.active,
-#controls ol .control-tool.active,
-#controls ol .scene-control:hover,
-#controls ol .control-tool:hover {
-    border: 1px solid #168a1d;
-    border-bottom: 1px solid #168a1d;
-    box-shadow: -1px 0 10px #168a1d;
-}
-#navigation #scene-list .scene.view,
-#navigation #scene-list .scene.context {
+#controls ol.control-tools > li.active,
+#controls ol.control-tools > li:hover {
     border: 1px solid #168a1d;
     border-bottom-color: #168a1d;
     border-bottom: 1px solid #168a1d;
