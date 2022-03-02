@@ -28,7 +28,7 @@ body {
     height: 30px;
     font-size: 22px;
     line-height: 30px;
-    margin: 0 0 4px;
+    margin: 0 0 2px;
 }
 
 /* custo des journaux */
@@ -64,7 +64,9 @@ button:focus {
     box-shadow: 0 0 5px #168a1d;
 }
 #controls ol.control-tools > li.active,
-#controls ol.control-tools > li:hover {
+#controls ol.control-tools > li:hover,
+#navigation #scene-list .scene.view,
+#navigation #scene-list .scene.context {
     border: 1px solid #168a1d;
     border-bottom-color: #168a1d;
     border-bottom: 1px solid #168a1d;
@@ -86,6 +88,18 @@ a:hover {
 }
 #chat-log .message {
     border: 2px solid #000000;
+}
+select:focus,
+textarea:focus,
+text:focus,
+input:focus {
+    box-shadow: 0 0 8px #168a1d;
+}
+#hotbar .macro .macro-icon:hover,
+#hotbar .macro.inactive:hover,
+#hotbar .macro.active:hover {
+    box-shadow: 0 0 8px #168a1d inset;
+    border: 1px solid #168a1d;
 }
 
 
