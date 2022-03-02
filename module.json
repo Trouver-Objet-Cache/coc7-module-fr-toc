@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://github.com/Trouver-Objet-Cache/coc7-module-fr-toc",
   "flags": {},
-  "version": "1.0.5",
+  "version": "1.0.6",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "scripts": [
