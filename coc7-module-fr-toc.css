@@ -102,6 +102,11 @@ input:focus {
     border: 1px solid #168a1d;
 }
 
+/* menu des scenes */
+#navigation #scene-list {
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
 
 /* FICHE DE PERSO */
 
