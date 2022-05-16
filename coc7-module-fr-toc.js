@@ -43,7 +43,8 @@ Hooks.on('ready', async function () {
     })
     // modif du jet dans dicesonice pour Hey listen fonctionne
     /* TODO: tester la présence de dsn */
-    //game.settings.set('dice-so-nice', 'immediatelyDisplayChatMessages', true);
+    let isDsnActive = game.modules.has("dice-so-nice") ? game.modules.get('dice-so-nice').active : false ;
+    if (isDsnActive) game.settings.set('dice-so-nice', 'immediatelyDisplayChatMessages', true);
 
     // message d'accueil à l'activation du module
     if (!game.user.getFlag("coc7-module-fr-toc", "welcomeMessageShown")) {
